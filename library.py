@@ -15,6 +15,9 @@ from sklearn.metrics import f1_score
 from sklearn.neighbors import KNeighborsClassifier
 
 
+titanic_variance_based_split = 107
+customer_variance_based_split = 113
+
 def find_random_state(features_df, labels, n=200):
 
   var = []
