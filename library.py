@@ -11,6 +11,7 @@ import sys
 subprocess.call([sys.executable, '-m', 'pip', 'install', 'category_encoders'])  #replaces !pip install
 import category_encoders as ce
 
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score
 from sklearn.neighbors import KNeighborsClassifier
 
